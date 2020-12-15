@@ -1,5 +1,4 @@
 changelog:
-  repository: mmornati/test-relese-notes
   sections:
   - title: "Enhancements"
     labels: ["new"]
