@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Create Release Notes
-        uses: decathlon/release-notes-generator-action@master
+        uses: decathlon/release-notes-generator-action@fix_version_udapte
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT_FOLDER: temp_release_notes
