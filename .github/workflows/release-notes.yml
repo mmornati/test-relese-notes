@@ -1,7 +1,12 @@
 on:
   milestone:
     types: [closed]
-
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Milestone ID'     
+        required: true
+        default: '1'
 name: Milestone Closure
 jobs:
   release-notes:
