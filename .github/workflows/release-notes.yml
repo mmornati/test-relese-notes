@@ -16,7 +16,7 @@ jobs:
         uses: hmarr/debug-action@v1.0.0
       - uses: actions/checkout@master
       - name: Create Release Notes
-        uses: decathlon/release-notes-generator-action@feat_workflow_dispatch
+        uses: decathlon/release-notes-generator-action@feat_upgrade_lib
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT_FOLDER: temp_release_notes
